@@ -1,0 +1,12 @@
+cmd: python mean_image_02.py
+deps:
+- md5: 7075cbc855ac0aa163d6ad595e5cc3f2.dir
+  path: generated
+md5: 6799f1a23ab03f6989330646a154ab35
+outs:
+- cache: true
+  md5: b9d766a285d077e2552cc60db495566b
+  metric: false
+  path: mean_img.npy
+  persist: false
+wdir: .

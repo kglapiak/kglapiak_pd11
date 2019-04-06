@@ -1,0 +1,14 @@
+cmd: python substrct_images_03.py
+deps:
+- md5: 7075cbc855ac0aa163d6ad595e5cc3f2.dir
+  path: generated
+- md5: b9d766a285d077e2552cc60db495566b
+  path: mean_img.npy
+md5: 378bb5864460002c64eb78e5425e1fa0
+outs:
+- cache: true
+  md5: a9b2d8c5f0114d033facf3e5366a147a.dir
+  metric: false
+  path: new_images
+  persist: false
+wdir: .

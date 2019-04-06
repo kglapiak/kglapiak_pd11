@@ -1,0 +1,12 @@
+cmd: python image_generator_01.py --image_name=cat.1002.jpg
+deps:
+- md5: efb25e4b3fa936b1d1f028047901fb83.dir
+  path: data
+md5: 0134b4dc6e91e3ba69742eb3a4fbdbc8
+outs:
+- cache: true
+  md5: 7075cbc855ac0aa163d6ad595e5cc3f2.dir
+  metric: false
+  path: generated
+  persist: false
+wdir: .
